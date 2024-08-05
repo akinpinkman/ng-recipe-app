@@ -1,4 +1,4 @@
-<a href="#" class="list-group-item clearfix"
+<a href="#" class="list-group-item clearfix" (click)="onSelected()"
   ><div class="pull-left">
     <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
     <p class="list-group-item-text">{{ recipe.description }}</p>
@@ -11,3 +11,9 @@
     />
   </span>
 </a>
+
+<!-- 
+1. Recipe itema basınca event emittle.
+2. Bu eventi recipes componenta taşı.
+3. Sonra recipe detailse hani recipenin secildiğini taşı. 
+-->
